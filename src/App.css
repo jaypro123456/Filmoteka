@@ -1,0 +1,341 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: #fff !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+input { 
+border: none;
+outline: none;
+}
+
+.search-title { 
+margin-top: 30px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.box {
+  text-align: center;
+}
+body {
+  padding: 20px;
+  background-color: rgb(66, 66, 66);
+}
+
+/* Form.css */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #334;
+  color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-container input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-container button {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Base styling */
+
+/* Header styling */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.header img {
+  width: 80px;
+  cursor: pointer;
+}
+
+.search-btn { 
+margin-right: 5px;
+}
+
+/* Navigation styling */
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #ff9800; /* Change color on hover */
+}
+
+.menu a:active {
+  color: #ffa726; /* Change color when active */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.menu__login {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid gray;
+  transition: all 2s;
+  &:hover {
+    transition: all 1s;
+    border: 1px solid #ffa726;
+  }
+}
+
+/* films-item styling */
+li {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #1c1c1e;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  text-align: center;
+}
+
+li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.film-item-img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.film-item-title {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+}
+
+li:hover .film-item-img {
+  opacity: 0.9;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.film-list {
+  position: relative;
+}
+
+.film-item-img {
+  width: 100%;
+  display: block;
+}
+
+.film-item-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.hidden-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.vote {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.film-list:hover .hidden-info {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*Аккаунт*/
+/* AccountPage.css */
+/* AccountPage.css */
+.account-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.account-page__title {
+  font-size: 2rem;
+  color: #ffd700; /* золотистый цвет для заголовка */
+  margin-bottom: 20px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.account-page__message {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.account-page__logout-button {
+  padding: 10px 20px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.account-page__logout-button:hover {
+  background-color: #e68900;
+  transform: scale(1.05);
+}
+
+.account-page__logout-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 152, 0, 0.5);
+}
+
+.dontGo {
+  align-self: flex-end; /* Кнопка будет выровнена по левому краю */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #ff6b08; /* Оранжевый фон */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Loader*/
+
+.Loader {
+  padding-top: 100px;
+  width: 1200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}

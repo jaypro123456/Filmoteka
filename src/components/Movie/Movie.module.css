@@ -1,0 +1,86 @@
+/* Movie.module.css */
+.mainContainer {
+  display: flex;
+  flex-direction: row; /* Элементы располагаются в строку */
+  padding: 20px;
+  background-color: #333; /* Темный фон */
+  color: #e0e0e0; /* Светлый текст */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  max-width: 1000px; /* Увеличение размера основного контейнера */
+  margin: 20px auto; /* Центрирование и отступы */
+}
+
+.img {
+  width: 320px; /* Увеличенный размер постера */
+  height: 480px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  margin-right: 24px; /* Отступ справа для пространства между изображением и текстом */
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 600px; /* Ограничение ширины текстового контейнера */
+  margin-bottom: 20px; /* Отступ снизу для кнопки */
+}
+
+.movieName {
+  font-size: 30px; /* Чуть больше шрифт для названия */
+  font-weight: 700;
+  color: #ffffff; /* Белый текст */
+  margin-bottom: 10px;
+}
+
+.overViev {
+  font-size: 16px;
+  line-height: 1.6; /* Немного увеличенная межстрочная высота для читабельности */
+  color: #b0b0b0; /* Серый текст */
+  margin-bottom: 15px;
+}
+
+.tags {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff6b08; /* Оранжевый цвет для тегов */
+  margin-bottom: 10px;
+}
+
+.genres {
+  font-size: 14px;
+  font-weight: 500;
+  color: #b0b0b0; /* Серый текст для жанров */
+  margin-bottom: 15px;
+}
+
+.genre {
+  margin-right: 8px;
+  color: #ff6b08; /* Оранжевый цвет для названий жанров */
+}
+
+.vote {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff6b08; /* Оранжевый цвет для рейтинга */
+  margin-top: 15px; /* Небольшой отступ сверху для отделения от остальных элементов */
+}
+
+.toMain {
+  align-self: flex-end; /* Кнопка будет выровнена по левому краю */
+  padding: 10px 20px;
+  font-size: 16px;  
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #ff6b08; /* Оранжевый фон */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toMain:hover {
+  background-color: #e65a00; /* Темный оттенок оранжевого при наведении */
+}

@@ -1,0 +1,15 @@
+.btn {
+  align-self: flex-end; /* Кнопка будет выровнена по левому краю */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #ff6b08; /* Оранжевый фон */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #e65a00;
+}
