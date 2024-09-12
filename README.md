@@ -1,8 +1,9 @@
-# React + Vite
+Проект "Cinemateka" — это веб-приложение для поиска и просмотра информации о фильмах. Оно позволяет пользователям регистрироваться, добавлять фильмы в избранное, просматривать список фильмов и детальную информацию о каждом из них. Реализована маршрутизация для различных страниц, таких как главная, избранное, регистрация, логин, поиск и страница с деталями фильма.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Используемые технологии:**
+- **React** для построения пользовательского интерфейса.
+- **React Router** для организации маршрутизации между страницами.
+- **CSS-модули** для стилизации компонентов.
+- **Firebase** для аутентификации пользователей и хранения данных.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Данное приложение нацелено на создание удобного пользовательского опыта для просмотра и управления фильмами.
